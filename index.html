@@ -30,13 +30,27 @@
             document.getElementById("contenido").innerHTML = `
                 <h2>🌊 Andalucía</h2>
 
-                <button>Almería</button>
+                <button onclick="mostrarAlmeria()">Almeria</button>
                 <button>Cádiz</button>
                 <button>Granada</button>
                 <button>Huelva</button>
                 <button>Málaga</button>
         `;
         }
+   function mostrarAlmeria() {
+    document.getElementById("contenido").innerHTML = `
+        <h2>🌊 Almería</h2>
+
+        <button>Los Genoveses</button>
+        <button>Mónsul</button>
+        <button>San José</button>
+        <button>Mojácar</button>
+        <button>Los Escullos</button>
+        <button>Las Negras</button>
+        <button>Agua Amarga</button>
+        <button>Carboneras</button>
+    `;
+}
     </script>
 
 </body>
